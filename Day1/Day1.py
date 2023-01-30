@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+def main() -> None: 
     f = open("Day1/input.txt", "r")
     data = f.readlines()
     total_load = [0]
@@ -20,3 +20,6 @@ if __name__ == '__main__':
 
     print(f"Part 1) The heaviest load is: {top_load} caleries.")
     print(f"Part 2) The 3 heaviest loads are: {top_three_loads} caleries.")
+
+if __name__ == '__main__':
+    main()

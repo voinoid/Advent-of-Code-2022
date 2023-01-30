@@ -1,4 +1,4 @@
-if __name__ == "__main__":
+def main() -> None:
     f = open("Day2/input2.txt", "r")
     data = f.readlines()
 
@@ -37,3 +37,6 @@ if __name__ == "__main__":
 
     print(f"The Elf's final score is: {scores['elf']}")
     print(f'Your final score is: {scores["player"]}')
+
+if __name__ == "__main__":
+    main()
