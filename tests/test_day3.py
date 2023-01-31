@@ -1,4 +1,4 @@
-from Day3.day3p1 import get_priority_number, find_duplicates, find_badge
+from Day3.day3 import get_priority_number, find_duplicates, find_badge
 
 def test_get_priority_number():
     # Arrange and Act
